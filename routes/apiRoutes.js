@@ -1,6 +1,6 @@
 const apiRouter = require('express').Router();
 const { Router } = require('express');
-const helpers = require('../helpers/fsUtils.js');
+const fsUtils = require('../helpers/fsUtils.js');
 
 apiRouter.get('/notes', (req, res) => {
     store
@@ -13,14 +13,14 @@ apiRouter.get('/notes', (req, res) => {
 
 apiRouter.post('/notes', (req, res) => {
     store
-        .addNote(req.body)
+        .postNote(req.body)
         .then((note) => res.json(note))
         .catch((err) => res.status(500).json(err));
 });
 
 apiRouter.delete('/notes/:id', (req, res) => {
     store
-        .removeNote(req.params.id)
+        .deleteNote(req.params.id)
         .then(() => res.json({ ok: true}))
         .catch((err) => res.status(500).json(err));
 });
