@@ -1,5 +1,5 @@
-# Note-Taker-code-refactor
-## Week 11 Challenge: Express JS
+# note-taker
+Module 11 Challenge: Express JS
 
 ![Alt text](./public/assets/screenshot.JPG "Screenshot")
 
