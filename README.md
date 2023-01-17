@@ -1,4 +1,4 @@
-# note-taker
+# Note Taker
 Module 11 Challenge: Express JS
 
 ![Alt text](./public/assets/screenshot.JPG "Screenshot")
@@ -14,10 +14,14 @@ Note-taking app designed to test the developer's ability to implement back-end c
 
   ## Table of Contents
   * [Installation Instructions](#installation-instructions)
+  * [Usage Information](#usage-information)
   * [Questions](#questions)
 
   ## Installation Instructions
   fs, util, express, path
+
+  ## Usage Information
+  N/A
 
   ## Questions
   For any inquiries, spam by inbox here: blakerichardburns@gmail.com

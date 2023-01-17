@@ -1,13 +1,13 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Note-taking app designed to test the developer's ability to implement back-end code to a pre-existing front-end codebase, and show off their Express.js and Heroku deployment skills.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Blake Burns",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
